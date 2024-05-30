@@ -1,5 +1,5 @@
 import random
-word_list = ["petko","plamen","jelqz"]
+word_list = ["apple","orange","pear","strawberry","pineapple"]
 player_attempts = 5
 ran_word = random.choice(word_list)
 print(f"Pssst, a little cheat, your word is {ran_word}")
