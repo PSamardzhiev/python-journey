@@ -25,7 +25,7 @@ while "_" in display and player_attempts > 0:
     else:
         print(display)
         player_attempts -= 1
-        print(f"Wrong answer, you have {player_attempts} left to try ")
+        print(f"Wrong answer, you have {player_attempts} attempts left to try ")
         print(hpp.HANGMANPICS[int(hang_draw)])
         hang_draw += 1
 
