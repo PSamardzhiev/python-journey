@@ -1,5 +1,5 @@
 import random
-import hangman_art as hpp
+import hangman_art as hma
 
 word_list = ["apple","orange","pear","strawberry","pineapple"]
 player_attempts = 7
@@ -26,7 +26,7 @@ while "_" in display and player_attempts > 0:
         print(display)
         player_attempts -= 1
         print(f"Wrong answer, you have {player_attempts} attempts left to try ")
-        print(hpp.HANGMANPICS[int(hang_draw)])
+        print(hma.HANGMANPICS[int(hang_draw)])
         hang_draw += 1
 
 if player_attempts > 0:
