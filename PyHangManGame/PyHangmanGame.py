@@ -1,5 +1,5 @@
 import random
-import hangman_pics as hpp
+import hangman_art as hpp
 
 word_list = ["apple","orange","pear","strawberry","pineapple"]
 player_attempts = 7
