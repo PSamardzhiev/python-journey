@@ -1,11 +1,13 @@
 import random
+import hangman_pics as hpp
+
 word_list = ["apple","orange","pear","strawberry","pineapple"]
-player_attempts = 5
+player_attempts = 7
+hang_draw = 0
 ran_word = random.choice(word_list)
 
 # if you want to cheat just uncomment below:
 # print(f"Pssst, a little cheat, your word is {ran_word}")
-
 display = []
 
 for _ in range(len(ran_word)):
@@ -24,6 +26,8 @@ while "_" in display and player_attempts > 0:
         print(display)
         player_attempts -= 1
         print(f"Wrong answer, you have {player_attempts} left to try ")
+        print(hpp.HANGMANPICS[int(hang_draw)])
+        hang_draw += 1
 
 if player_attempts > 0:
     
