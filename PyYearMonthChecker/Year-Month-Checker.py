@@ -28,7 +28,7 @@ def days_in_month(year, month):
         "Dec": 31
     }
     if is_leap(year) and month == "Feb":
-        month_and_days["Feb"] = 29
+        return 29
     return month_and_days[month]
 
 # Mapping month numbers to names
