@@ -16,11 +16,11 @@ for _ in range(len(ran_word)):
 print(display)
 
 while "_" in display and player_attempts > 0:
-    choise = input("Enter your guess: ")
-    if choise in ran_word:
+    choice = input("Enter your guess: ")
+    if choice in ran_word:
         for index in range(len(ran_word)):
-            if choise == ran_word[index]:
-                display[index] = choise
+            if choice == ran_word[index]:
+                display[index] = choice
         print(display)
     else:
         print(display)
