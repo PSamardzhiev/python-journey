@@ -19,7 +19,7 @@ while pass_lenght < 12:
     nr_symbols = int(input("How many symbols do you want your passwprd to contain:\n "))
     pass_lenght = nr_letters + nr_numbers + nr_symbols
 
-os.system('clear')
+#os.system('cls')
 password_list = []
 pass_string = ""
 print(f"The generated password will be {pass_lenght} characters long")
