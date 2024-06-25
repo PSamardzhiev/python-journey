@@ -1,8 +1,8 @@
 # python-journey
 A repo where you can find all sorts of small python projects, scripts and notes   
-This repo is intended to assist you during your own Python Learning Journey wish at a glance examples and small projects   
+This repo is intended to assist you during your own Python Learning Journey with at a glance examples and small projects   
 At some point this repo will contain also an advanced Python Concepts such as:   
-* Python Object Oriented Programming
+* Python Object-Oriented Programming
 * Python Scripting and Automation
 * Flask
 * APIs
